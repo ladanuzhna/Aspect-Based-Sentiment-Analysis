@@ -10,16 +10,6 @@ import neuralcoref
 import numpy as np
 
 
-# def resolve_coreferences(text):
-#     """
-#     resolve coreferences in 1 review
-#     """
-#     coref = neuralcoref.NeuralCoref(nlp.vocab)
-#     nlp.add_pipe(coref, name='neuralcoref')
-#     doc = nlp(text)
-#     return doc._.coref_resolved
-
-
 def clean(text):
     # convert text to lower case
     text = text.lower()
